@@ -10,7 +10,7 @@ resource "aws_cloudwatch_event_rule" "default" {
   event_pattern = <<EOF
 {
   "detail-type": [
-    "AWS Console Sign In via CloudTrail"
+    "AWS Console SignIn via CloudTrail"
   ]
 }
 EOF
